@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    border-color: rgb(139, 139, 236);
+    box-shadow: 5px 5px 10px rgb(89, 95, 246);
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    display:flex;
+}
+
+.cart .cart-icon{
+    font-size:2.5rem;
+    color: white;
+    margin-left: 15px;
+}
+
+.cart p{
+    margin-top:20px;
+    font-weight:500;
+    color: white;
+}
+.add-to-cart {
+   /* background-color: rgb(89, 95, 246);
+    border-radius: 12px;
+    border: 2px solid #ab3b9a;*/
+    transition-duration: 0.4s;
+    border-radius: 5px;
+
+}
+.add-to-cart:hover{
+    background-color: rgb(89, 95, 246); 
+    color: white;
+}
+.textbold{
+    font-weight: bold;
+}
+.rohit{
+    border-color: rgb(139, 139, 236);
+    box-shadow: 5px 5px 10px rgb(89, 95, 246);
+}
+ 
+/* profile css */
+
+  .signup-container {
+     background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding: 20px;
+    border-radius: 5px;
+    border-color: rgb(61, 61, 75);
+    box-shadow: 5px 5px 10px rgb(45, 46, 52);
+    width: 300px;
+    text-align: center;
+  }
+
+  .signup-container h2 {
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: auto;
+  }
+
+  .form-group button {
+    background-color: #30353a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .google-signup-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  #x {
+    border-color: rgb(53, 53, 67);
+    box-shadow: 5px 5px 10px rgb(53, 53, 54);
+  }
+  .google-signup-button img {
+    margin-right: 10px;
+  }
+  #maincont {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('image/profile-background11.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* profile css  end */
+
+
+  /*footer css */
+
+  .footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(116, 116, 241);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+  }
+  
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    background-image: linear-gradient(to bottom right, #5447e2c5,#1608b4c5);
+  }
+  
+  .footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+  }
+  
+  .footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+  }
+
+  .footer-items li {
+    color: #ddd;
+    font-size: 0.875rem;
+  }
+  
+  .footer-items li a:hover {
+    text-decoration: underline;
+  }
+
+
+i {
+    margin-top: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.flex-box{
+    display:flex;
+    background-image: linear-gradient(to bottom right,white,rgb(108, 108, 211));
+}
+.social-media{
+    display: flex;
+    padding-left: 1rem;
+}
+.flex-box li{
+    list-style: none;
+    padding-right:10px ;
+}
+
+.copyrights-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    display:flex;
+}
+.col ul{
+    padding-left: 0;
+}
+.follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*footer css end */
+
+
+/*our schemes css */
+.flex-container {
+    display: flex;
+    background-color: white;
+  }
+
+  .flex-container > div {
+    
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+  }
+  /*our schemes css end */
