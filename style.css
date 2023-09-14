@@ -2,11 +2,26 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
     /* font-family: 'Open Sans', sans-serif; */
+    
+}
+#gradient1{
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+z-index: -1;
+}
+.ourSchemesh1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
+body{
+  background-color: rgba(206, 200, 200, 0.616);
+}
 
 .main{
     display: flex;
@@ -14,8 +29,8 @@
 }
 
 .card{
-    border-color: rgb(139, 139, 236);
-    box-shadow: 5px 5px 10px rgb(89, 95, 246);
+    border-color: rgba(7, 7, 132, 0.909);
+    box-shadow: 5px 5px 10px rgba(6, 6, 141, 0.909);
 }
 
 .button{
@@ -23,6 +38,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .cart{
     display:flex;
@@ -48,28 +64,27 @@
 
 }
 .add-to-cart:hover{
-    background-color: rgb(89, 95, 246); 
+    background-color: rgb(35, 35, 36); 
     color: white;
 }
 .textbold{
     font-weight: bold;
 }
 .rohit{
-    border-color: rgb(139, 139, 236);
-    box-shadow: 5px 5px 10px rgb(89, 95, 246);
+    border-color: rgb(16, 16, 118);
+    box-shadow: 5px 5px 10px rgb(5, 5, 142);
 }
  
 /* profile css */
 
   .signup-container {
-     background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 20px;
     border-radius: 5px;
-    border-color: rgb(61, 61, 75);
-    box-shadow: 5px 5px 10px rgb(45, 46, 52);
+    border-color: rgb(27, 27, 212);
+    box-shadow: 5px 5px 10px rgba(33, 65, 243, 0.941);
     width: 300px;
     text-align: center;
   }
@@ -126,8 +141,9 @@
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('image/profile-background11.jpg');
-    background-size: cover;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     background-position: center;
     margin: 0;
     padding: 0;
@@ -232,6 +248,7 @@ i {
     display: flex;
     background-color: white;
   }
+  
 
   .flex-container > div {
     
@@ -241,4 +258,64 @@ i {
     margin-right: 10px;
     
   }
+  
+  .card{
+    margin-bottom: 20px;
+  }
+  .card:hover {
+    transform: translate(4px, -4px);
+    box-shadow: rgba(16, 16, 230, 0.626) -8px 8px 0px;
+  }
+  .cardButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block .row>*{
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .choose{
+    background-color: #ccccccc3;
+    border: 1px solid rgb(179, 172, 172);
+  }
+  .invest{
+    background-color: rgba(232, 178, 206, 0.619);
+    border: 1px solid rgb(179, 172, 172);
+  }
+  .y{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ .zi{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+ }
+ .small{
+  font-size: 9px;
+  
+ }
+  .decoration{
+    list-style: none;
+  }
+
+  #annualised{
+    
+  }
+
+  #percentage{
+    font-weight: bold;
+    font-size: 30px;
+  }
   /*our schemes css end */
+
+
+  /* new add */
+  #cardtextbold{
+    font-weight: 900;
+  }

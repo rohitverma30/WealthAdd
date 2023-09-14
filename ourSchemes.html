@@ -6,10 +6,80 @@
     <title>OurSchemes</title>
     <link rel = "stylesheet" href = "style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center align-items-center">
+    <header >
+      <nav class="navbar navbar-expand-lg navbar-light  >
+        <div class="container-fluid ">
+          <a class="navbar-brand ms-5" href="#">
+            <img
+              src="image/logo.jpg"
+              width="35"
+              height="35"
+              class="d-inline-block align-top"
+              alt=""
+            />
+           <b>W</b>ealth <b>P</b>lus
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+              <a class="nav-link active me-3" aria-current="page" href="#">Home</a>
+              <a class="nav-link me-3" href="ourSchemes.html">Our Schemes</a>
+              <a class="nav-link me-3" href="#">Features</a>
+              <a class="nav-link me-3" href="#">Pricing</a>
+              <a class="nav-link me-3" href="#">About Us</a>
+              <div id="cart" class="ms-1">
+                <a href="cart.html" id="cart-icon" style="cursor: pointer;">
+                    <img src="image/cart-icon1.png" width="40" height="40" alt="Cart" />
+                </a>
+                <span id="cart-count"></span>
+            </div>
+            
+              <div class="ms-1">
+               <a href="profile.html"><img src="image/profile-icon-main1.png"  width="40" height="40"></a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid  border" >
+      <div class="row mt-2 mb-2 ourSchemesh1" id="gradient1">
+        <div class="col-md-6 " >
+          <div class="container">
+            <div class="row">
+              <h1 > 
+                <b>Explore Trending  Mutual Fund Schemes</b>
+              </h1>
+               <span class="font-weight-bold h3">  🚀 "Join the Investment Revolution:</span> <span class="font-weight-bold h3">📈 Trending Mutual Funds Today! 💰💼  🌟</span> 
+            </div>
+            <div></div>
+          </div>
+          
+        </div>
+        <div class="col-md-6 ">
+          <img src="image/ourschemecardheaderimg.jpg" class="ourschemeheaderimg h-100 w-100 rounded ">
+        </div>
+      </div>
+    </div>
+    
+ 
+
+
+  <!--  <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-center align-items-center">
         <div class="container-fluid">
             <a class="navbar-brand mx-5" href="#">All Schemes</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,119 +106,544 @@
             </div>
         </div>
     </nav>
-    
-    <div class="container-fluid ">
-        <div class="row main mt-5">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+  -->
+
+     
+    <div class="container-fluid block mt-2">
+        <div class="row main ">
+            <div class="card " style="width: 18rem;">
+                <img src="image/tata.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title fw-bold ">Tata Power</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">An item</li>
-                  <li class="list-group-item">A second item</li>
-                  <li class="list-group-item">A third item</li>
+                  <li class="list-group-item">
+                    <div class="row ">
+                      <div class="col-6 y border-end">
+                           <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                           <div id="percentage">87.84</div>
+                      </div>
+                      <div class="col-6 y">
+                        <div>
+                        <b>Very high</b>  
+                        </div>
+                        <div ><img src="image/speed.png" height="45" width="40"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div >
+                      <div >
+                       <ul>
+                        <div class="row d-flex ">
+                          <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                          <div class="col-6 zi"> 
+                            <ul class="d-flex">
+                            <li class="decoration " > 5Y</li>
+                            <li class="decoration ms-2" >3Y</li>
+                            <li class="decoration ms-2" >1Y</li>
+                          </ul>
+                        </div>
+                      </div> 
+                    </ul>
+                      </div>
+                    <div class="row d-flex">
+                      <div class="col-6 zi" >
+                        <div id="annualised">annualised Return</div>
+                        <div id="percentage">24.12 %</div>
+                      </div>
+                      <div class="col-6 zi">
+                        <div id="annualised">Benchmark Return</div>
+                        <div id="percentage">14.93 %</div>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                  <li class="list-group-item">$ 100  investment grow to $ 250</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <div class="row">
+                    <div class="col-6 cardButton choose">
+                        <button href="#" class="btn">Add to Cart</button>
+                    </div>
+                    <div class="col-6 cardButton invest">
+                      <button href="#" class="btn mx-2">Invest</button>
+                    </div>
+                  </div>
                 </div>
               </div>
   
+              <div class="card " style="width: 18rem;">
+                <img src="image/lic1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold ">LIC</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div class="row ">
+                      <div class="col-6 y border-end">
+                           <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                           <div id="percentage">87.84</div>
+                      </div>
+                      <div class="col-6 y">
+                        <div>
+                        <b>Very high</b>  
+                        </div>
+                        <div ><img src="image/speed.png" height="45" width="40"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div >
+                      <div >
+                       <ul>
+                        <div class="row d-flex ">
+                          <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                          <div class="col-6 zi"> 
+                            <ul class="d-flex">
+                            <li class="decoration " > 5Y</li>
+                            <li class="decoration ms-2" >3Y</li>
+                            <li class="decoration ms-2" >1Y</li>
+                          </ul>
+                        </div>
+                      </div> 
+                    </ul>
+                      </div>
+                    <div class="row d-flex">
+                      <div class="col-6 zi" >
+                        <div id="annualised">annualised Return</div>
+                        <div id="percentage">24.12 %</div>
+                      </div>
+                      <div class="col-6 zi">
+                        <div id="annualised">Benchmark Return</div>
+                        <div id="percentage">14.93 %</div>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                  <li class="list-group-item">$ 100  investment grow to $ 250</li>
+                </ul>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6 cardButton choose">
+                        <button href="#" class="btn">Add to Cart</button>
+                    </div>
+                    <div class="col-6 cardButton invest">
+                      <button href="#" class="btn mx-2">Invest</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="image/flipkart.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title fw-bold ">Flipkart</h5>
                 </div>
                 <ul class="list-group list-group-flush">
-                  <li class="list-group-item">An item</li>
-                  <li class="list-group-item">A second item</li>
-                  <li class="list-group-item">A third item</li>
+                  <li class="list-group-item">
+                    <div class="row ">
+                      <div class="col-6 y border-end">
+                           <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                           <div id="percentage">87.84</div>
+                      </div>
+                      <div class="col-6 y">
+                        <div>
+                        <b>Very high</b>  
+                        </div>
+                        <div ><img src="image/speed.png" height="45" width="40"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div >
+                      <div >
+                       <ul>
+                        <div class="row d-flex ">
+                          <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                          <div class="col-6 zi"> 
+                            <ul class="d-flex">
+                            <li class="decoration " > 5Y</li>
+                            <li class="decoration ms-2" >3Y</li>
+                            <li class="decoration ms-2" >1Y</li>
+                          </ul>
+                        </div>
+                      </div> 
+                    </ul>
+                      </div>
+                    <div class="row d-flex">
+                      <div class="col-6 zi" >
+                        <div id="annualised">annualised Return</div>
+                        <div id="percentage">24.12 %</div>
+                      </div>
+                      <div class="col-6 zi">
+                        <div id="annualised">Benchmark Return</div>
+                        <div id="percentage">14.93 %</div>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                  <li class="list-group-item">$ 100  investment grow to $ 250</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <div class="row">
+                    <div class="col-6 cardButton choose">
+                        <button href="#" class="btn">Add to Cart</button>
+                    </div>
+                    <div class="col-6 cardButton invest">
+                      <button href="#" class="btn mx-2">Invest</button>
+                    </div>
+                  </div>
                 </div>
               </div>
-  
-          <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top mt-2 rounded" src="image/20.jpg" alt="Fund 3" />
+
+              <div class="card" style="width: 18rem;">
+                <img src="image/7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold ">ICICI</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div class="row ">
+                      <div class="col-6 y border-end">
+                           <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                           <div id="percentage">87.84</div>
+                      </div>
+                      <div class="col-6 y">
+                        <div>
+                        <b>Very high</b>  
+                        </div>
+                        <div ><img src="image/speed.png" height="45" width="40"></div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div >
+                      <div >
+                       <ul>
+                        <div class="row d-flex ">
+                          <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                          <div class="col-6 zi"> 
+                            <ul class="d-flex">
+                            <li class="decoration " > 5Y</li>
+                            <li class="decoration ms-2" >3Y</li>
+                            <li class="decoration ms-2" >1Y</li>
+                          </ul>
+                        </div>
+                      </div> 
+                    </ul>
+                      </div>
+                    <div class="row d-flex">
+                      <div class="col-6 zi" >
+                        <div id="annualised">annualised Return</div>
+                        <div id="percentage">24.12 %</div>
+                      </div>
+                      <div class="col-6 zi">
+                        <div id="annualised">Benchmark Return</div>
+                        <div id="percentage">14.93 %</div>
+                      </div>
+                    </div>
+                  </div>
+                  </li>
+                  <li class="list-group-item">$ 100  investment grow to $ 250</li>
+                </ul>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-6 cardButton choose">
+                        <button href="#" class="btn">Add to Cart</button>
+                    </div>
+                    <div class="col-6 cardButton invest">
+                      <button href="#" class="btn mx-2">Invest</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="row main mb-5">
+          <div class="card" style="width: 18rem;">
+            <img src="image/5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Mutual Fund1</h5>
-              <p class="card-text">
-                A mutual fund is a company that pools money from many investors
-                and invests the money in securities such as stocks, bonds, and
-                short-term debt.
-              </p>
-              <button class="add-to-cart btn btn-primary btn-lg btn-block">Add to Cart</button>
+              <h5 class="card-title fw-bold ">DLF</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row ">
+                  <div class="col-6 y border-end">
+                       <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                       <div id="percentage">87.84</div>
+                  </div>
+                  <div class="col-6 y">
+                    <div>
+                    <b>Very high</b>  
+                    </div>
+                    <div ><img src="image/speed.png" height="45" width="40"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div >
+                  <div >
+                   <ul>
+                    <div class="row d-flex ">
+                      <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                      <div class="col-6 zi"> 
+                        <ul class="d-flex">
+                        <li class="decoration " > 5Y</li>
+                        <li class="decoration ms-2" >3Y</li>
+                        <li class="decoration ms-2" >1Y</li>
+                      </ul>
+                    </div>
+                  </div> 
+                </ul>
+                  </div>
+                <div class="row d-flex">
+                  <div class="col-6 zi" >
+                    <div id="annualised">annualised Return</div>
+                    <div id="percentage">24.12 %</div>
+                  </div>
+                  <div class="col-6 zi">
+                    <div id="annualised">Benchmark Return</div>
+                    <div id="percentage">14.93 %</div>
+                  </div>
+                </div>
+              </div>
+              </li>
+              <li class="list-group-item">$ 100  investment grow to $ 250</li>
+            </ul>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6 cardButton choose">
+                    <button href="#" class="btn">Add to Cart</button>
+                </div>
+                <div class="col-6 cardButton invest">
+                  <button href="#" class="btn mx-2">Invest</button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top mt-2 rounded" src="image/1.jpg" alt="Fund 3" />
+         
+          <div class="card" style="width: 18rem;">
+            <img src="image/adani.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Mutual Fund1</h5>
-              <p class="card-text">
-                A mutual fund is a company that pools money from many investors
-                and invests the money in securities such as stocks, bonds, and
-                short-term debt.
-              </p>
-              <button class="add-to-cart btn btn-primary btn-lg btn-block">Add to Cart</button>
+              <h5 class="card-title fw-bold ">Adani</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row ">
+                  <div class="col-6 y border-end">
+                       <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                       <div id="percentage">87.84</div>
+                  </div>
+                  <div class="col-6 y">
+                    <div>
+                    <b>Very high</b>  
+                    </div>
+                    <div ><img src="image/speed.png" height="45" width="40"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div >
+                  <div >
+                   <ul>
+                    <div class="row d-flex ">
+                      <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                      <div class="col-6 zi"> 
+                        <ul class="d-flex">
+                        <li class="decoration " > 5Y</li>
+                        <li class="decoration ms-2" >3Y</li>
+                        <li class="decoration ms-2" >1Y</li>
+                      </ul>
+                    </div>
+                  </div> 
+                </ul>
+                  </div>
+                <div class="row d-flex">
+                  <div class="col-6 zi" >
+                    <div id="annualised">annualised Return</div>
+                    <div id="percentage">24.12 %</div>
+                  </div>
+                  <div class="col-6 zi">
+                    <div id="annualised">Benchmark Return</div>
+                    <div id="percentage">14.93 %</div>
+                  </div>
+                </div>
+              </div>
+              </li>
+              <li class="list-group-item">$ 100  investment grow to $ 250</li>
+            </ul>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6 cardButton choose">
+                    <button href="#" class="btn">Add to Cart</button>
+                </div>
+                <div class="col-6 cardButton invest">
+                  <button href="#" class="btn mx-2">Invest</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="image/amazon.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold ">Amazon</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row ">
+                  <div class="col-6 y border-end">
+                       <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                       <div id="percentage">87.84</div>
+                  </div>
+                  <div class="col-6 y">
+                    <div>
+                    <b>Very high</b>  
+                    </div>
+                    <div ><img src="image/speed.png" height="45" width="40"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div >
+                  <div >
+                   <ul>
+                    <div class="row d-flex ">
+                      <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                      <div class="col-6 zi"> 
+                        <ul class="d-flex">
+                        <li class="decoration " > 5Y</li>
+                        <li class="decoration ms-2" >3Y</li>
+                        <li class="decoration ms-2" >1Y</li>
+                      </ul>
+                    </div>
+                  </div> 
+                </ul>
+                  </div>
+                <div class="row d-flex">
+                  <div class="col-6 zi" >
+                    <div id="annualised">annualised Return</div>
+                    <div id="percentage">24.12 %</div>
+                  </div>
+                  <div class="col-6 zi">
+                    <div id="annualised">Benchmark Return</div>
+                    <div id="percentage">14.93 %</div>
+                  </div>
+                </div>
+              </div>
+              </li>
+              <li class="list-group-item">$ 100  investment grow to $ 250</li>
+            </ul>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6 cardButton choose">
+                    <button href="#" class="btn">Add to Cart</button>
+                </div>
+                <div class="col-6 cardButton invest">
+                  <button href="#" class="btn mx-2">Invest</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="image/zometo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold ">Zomato</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row ">
+                  <div class="col-6 y border-end">
+                       <div> <b>Nav </b> <span class="small">as on sep 2023</span></div>
+                       <div id="percentage">87.84</div>
+                  </div>
+                  <div class="col-6 y">
+                    <div>
+                    <b>Very high</b>  
+                    </div>
+                    <div ><img src="image/speed.png" height="45" width="40"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div >
+                  <div >
+                   <ul>
+                    <div class="row d-flex ">
+                      <div class="col-6 zi"><li class="decoration me-1">Sine Start</li></div>
+                      <div class="col-6 zi"> 
+                        <ul class="d-flex">
+                        <li class="decoration " > 5Y</li>
+                        <li class="decoration ms-2" >3Y</li>
+                        <li class="decoration ms-2" >1Y</li>
+                      </ul>
+                    </div>
+                  </div> 
+                </ul>
+                  </div>
+                <div class="row d-flex">
+                  <div class="col-6 zi" >
+                    <div id="annualised">annualised Return</div>
+                    <div id="percentage">24.12 %</div>
+                  </div>
+                  <div class="col-6 zi">
+                    <div id="annualised">Benchmark Return</div>
+                    <div id="percentage">14.93 %</div>
+                  </div>
+                </div>
+              </div>
+              </li>
+              <li class="list-group-item">$ 100  investment grow to $ 250</li>
+            </ul>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6 cardButton choose">
+                    <button href="#" class="btn">Add to Cart</button>
+                </div>
+                <div class="col-6 cardButton invest">
+                  <button href="#" class="btn mx-2">Invest</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row main mt-5 mb-5">
-          <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top mt-2 rounded" src="image/22.jpg" alt="Fund 3" />
-            <div class="card-body">
-              <h5 class="card-title">Mutual Fund1</h5>
-              <p class="card-text">
-                A mutual fund is a company that pools money from many investors
-                and invests the money in securities such as stocks, bonds, and
-                short-term debt.
-              </p>
-              <button class="add-to-cart btn btn-primary btn-lg btn-block">Add to Cart</button>
+       
+       
+        <p class="mx-3 my-3 h1"> <b>Market insights from Wealth Plus</b></p>
+
+        <div class="container-fluid">
+          <div class="row main">
+            <div class="card" style="width: 18rem;">
+              <img src="image/ourschemecard1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6><span>Daily Technical & Derivation Report</span></h6>
+                <p><span>14 Sep 2023</span></p>
+                <hr>
+                <p class="card-text"> The indian rupee in spot trade fell against the U.S dollar because of an increase in crudeoil price and a stronge greenback demand.</p>
+              </div>
             </div>
-          </div>
-          <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top mt-2 rounded" src="image/6.jpg" alt="Fund 3" />
-            <div class="card-body">
-              <h5 class="card-title">Mutual Fund1</h5>
-              <p class="card-text">
-                A mutual fund is a company that pools money from many investors
-                and invests the money in securities such as stocks, bonds, and
-                short-term debt.
-              </p>
-              <button class="add-to-cart btn btn-primary btn-lg btn-block">Add to Cart</button>
+            <div class="card" style="width: 18rem;">
+              <img src="image/ourschemecard2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6><span>Daily Technical & Derivation Report</span></h6>
+                <p><span>14 Sep 2023</span></p>
+                <hr>
+                <p class="card-text"> The indian rupee in spot trade fell against the U.S dollar because of an increase in crudeoil price and a stronge greenback demand.</p>
+              </div>
             </div>
-          </div>
-          <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top mt-2 rounded" src="image/7.jpg" alt="Fund 3" />
-            <div class="card-body">
-              <h5 class="card-title">Mutual Fund1</h5>
-              <p class="card-text">
-                A mutual fund is a company that pools money from many investors
-                and invests the money in securities such as stocks, bonds, and
-                short-term debt.
-              </p>
-              <button class="add-to-cart btn btn-primary btn-lg btn-block">Add to Cart</button>
-            </div>
-          </div>
-          <div class="card col-sm-3" style="width: 18rem;">
-            <img class="card-img-top mt-2 rounded" src="image/8.jpg" alt="Fund 3" />
-            <div class="card-body">
-              <h5 class="card-title">Mutual Fund1</h5>
-              <p class="card-text">
-                A mutual fund is a company that pools money from many investors
-                and invests the money in securities such as stocks, bonds, and
-                short-term debt.
-              </p>
-              <button class="add-to-cart btn btn-primary btn-lg btn-block">Add to Cart</button>
+            <div class="card" style="width: 18rem;">
+              <img src="image/ourschemecard3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6><span>Daily Technical & Derivation Report</span></h6>
+                <p><span>14 Sep 2023</span></p>
+                <hr>
+                <p class="card-text"> The indian rupee in spot trade fell against the U.S dollar because of an increase in crudeoil price and a stronge greenback demand.</p>
+              </div>
             </div>
           </div>
         </div>
-      
+        
+
+        <!-- footer -->
         <footer> 
           <a href="#" class="footer-title">
             Back to top
@@ -229,6 +724,8 @@
             
           </div>
         </div>
+       
+
     
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

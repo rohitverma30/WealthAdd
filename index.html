@@ -11,11 +11,16 @@
       crossorigin="anonymous"
     />
     <link rel = "stylesheet" href = "style.css">
-   
+    <style>
+      /* Custom CSS to hide overflow */
+      .overflow-hidden {
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
     <header >
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top " id="headershadow">
+      <nav class="navbar navbar-expand-lg navbar-light  >
         <div class="container-fluid ">
           <a class="navbar-brand ms-5" href="#">
             <img
@@ -25,7 +30,7 @@
               class="d-inline-block align-top"
               alt=""
             />
-            Wealth Plus
+           <b>W</b>ealth <b>P</b>lus
           </a>
           <button
             class="navbar-toggler"
@@ -45,23 +50,41 @@
               <a class="nav-link me-3" href="#">Features</a>
               <a class="nav-link me-3" href="#">Pricing</a>
               <a class="nav-link me-3" href="#">About Us</a>
-              <div id="cart" class="ms-3">
+              <div id="cart" class="ms-1">
                 <a href="cart.html" id="cart-icon" style="cursor: pointer;">
-                    <img src="image/cart-icon.jpg" width="28" height="30" alt="Cart" />
+                    <img src="image/cart-icon1.png" width="40" height="40" alt="Cart" />
                 </a>
                 <span id="cart-count"></span>
             </div>
             
-              <div class="ms-4">
-               <a href="profile.html"><img src="image/profile-icon-main.png"  width="40" height="40"></a> 
+              <div class="ms-1">
+               <a href="profile.html"><img src="image/profile-icon-main1.png"  width="40" height="40"></a> 
               </div>
             </div>
           </div>
         </div>
       </nav>
     </header>
-
-    <section >
+    <div class="container-fluid  border" >
+      <div class="row mt-2 mb-2 ourSchemesh1" id="gradient1">
+        <div class="col-md-6 " >
+          <div class="container">
+            <div class="row">
+              <h1 > 
+                <b>Explore Trending  Mutual Fund Schemes</b>
+              </h1>
+               <span class="font-weight-bold h3">  🚀 "Join the Investment Revolution:</span> <span class="font-weight-bold h3">📈 Trending Mutual Funds Today! 💰💼  🌟</span> 
+            </div>
+            <div></div>
+          </div>
+          
+        </div>
+        <div class="col-md-6 ">
+          <img src="image/ourschemecardheaderimg.jpg" class="ourschemeheaderimg h-100 w-100 rounded ">
+        </div>
+      </div>
+    </div>
+   <!--<section >
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -92,7 +115,116 @@
               <span class="sr-only">Next</span>
           </a>
       </div>
-      </section>
+      </section> --> 
+      
+      
+      
+
+      <div class="container  mt-2  " >
+        <div class="row  " >
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Total User</h5>
+                    <p class="card-text " id="cardtextbold">44,278</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="image/graph.jpg" class=" img-fluid  "  alt="Image 1">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-3 mt-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Total User</h5>
+                    <p class="card-text " id="cardtextbold">44,278</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="image/graph2.jpg" class=" img-fluid "  alt="Image 1">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Total User</h5>
+                    <p class="card-text " id="cardtextbold">44,278</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="image/graph3.jpg" class=" img-fluid  "  alt="Image 1">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-3 mt-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Total User</h5>
+                    <p class="card-text " id="cardtextbold">44,278</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <img src="image/graph4.jpg" class=" img-fluid overflow-hidden"  alt="Image 1">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <p class="mx-3 my-3 h1"> <b>Market insights from Wealth Plus</b></p>
+
+      <div class="container-fluid">
+        <div class="row main">
+          <div class="card" style="width: 18rem;">
+            <img src="image/ourschemecard1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6><span>Daily Technical & Derivation Report</span></h6>
+              <p><span>14 Sep 2023</span></p>
+              <hr>
+              <p class="card-text"> The indian rupee in spot trade fell against the U.S dollar because of an increase in crudeoil price and a stronge greenback demand.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="image/ourschemecard2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6><span>Daily Technical & Derivation Report</span></h6>
+              <p><span>14 Sep 2023</span></p>
+              <hr>
+              <p class="card-text"> The indian rupee in spot trade fell against the U.S dollar because of an increase in crudeoil price and a stronge greenback demand.</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="image/ourschemecard3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6><span>Daily Technical & Derivation Report</span></h6>
+              <p><span>14 Sep 2023</span></p>
+              <hr>
+              <p class="card-text"> The indian rupee in spot trade fell against the U.S dollar because of an increase in crudeoil price and a stronge greenback demand.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="container-fluid ">
       <div class="row main mt-5">
@@ -279,6 +411,8 @@
           
         </div>
       </div>
+
+
       </footer>
 
     <script
